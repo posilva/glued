@@ -2,7 +2,7 @@ source "$PKG_COMMON"
 
 version=\
 (
-    '3.5.4'
+    '3.9.7'
 )
 
 url=\
@@ -12,7 +12,7 @@ url=\
 
 md5=\
 (
-    '95d5c7271ad448bc965bdb29339b6923'
+    '2de8f625249279a071005b57250e9b20'
 )
 
 maintainer=\
@@ -23,4 +23,5 @@ maintainer=\
 requires=\
 (
     'kmod/host'
+    'u-boot/default'
 )
