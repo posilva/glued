@@ -1,16 +1,16 @@
 version=\
 (
-    "3.0.9"
+    "3.1.0pre1"
 )
 
 url=\
 (
-    "http://www.samba.org/ftp/rsync/rsync-$version.tar.gz"
+    "http://rsync.samba.org/ftp/rsync/src-previews/rsync-$version.tar.gz"
 )
 
 md5=\
 (
-    "5ee72266fe2c1822333c407e1761b92b"
+    "b1a64cf0c1d74371d9c24f071755246f"
 )
 
 maintainer=\
