@@ -1,6 +1,6 @@
 version=\
 (
-    "0.2.2"
+    "2.6.2.1"
 )
 python_version=\
 (
@@ -8,16 +8,17 @@ python_version=\
 )
 python_name=\
 (
-    "catkin_pkg"
+    "subprocess.run"
 )
 url=\
 (
-    "https://pypi.python.org/packages/source/c/$python_name/$python_name-${version}.tar.gz"
+
+    "https://pypi.python.org/packages/source/s/$python_name/${python_name}-${version}.tar.gz"
 )
 
 md5=\
 (
-    "7e6d3cb576d0841985952597ae2b9b70"
+    "bbb69faff2cdeeffedb2248ee9da2ac9"
 )
 
 requires=\

@@ -18,10 +18,20 @@ requires=\
     'python_host/host'
 )
 
+configure()
+{
+    
+}
+
+build()
+{
+    
+}
+
 host_install()
 {
-    cd ../empy-$version
-    ${cfg_dir_toolchain}/bin/python setup.py install --prefix=${cfg_dir_toolchain_sysroot}
+
+    ${cfg_dir_toolchain_sysroot}/bin/python setup.py --prefix=${cfg_dir_toolchain_sysroot}
 }
 
 

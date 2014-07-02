@@ -19,17 +19,6 @@ requires=\
     'python-setuptools/host'
 )
 
-configure()
-{
-    echo "configure python-argparse"
-}
-
-build()
-{
-
-    echo `pwd`
-    echo "Building python-argparse"    
-}
 
 host_install()
 {
@@ -38,12 +27,3 @@ host_install()
 
     ${cfg_dir_toolchain}/bin/python setup.py install --prefix=${cfg_dir_toolchain_sysroot}
 }
-
-target_install()
-{
-    cd ../argparse-$version
-    export PYTHONPATH=$PYTHONPATH:$cfg_dir_rootfs/lib/python2.7/site-packages/
-
-    ${cfg_dir_toolchain}/bin/python setup.py install --prefix=${cfg_dir_rootfs}
-}
-

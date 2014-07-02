@@ -1,6 +1,6 @@
 version=\
 (
-    "0.2.2"
+    "0.5.88"
 )
 python_version=\
 (
@@ -8,29 +8,28 @@ python_version=\
 )
 python_name=\
 (
-    "catkin_pkg"
+    "catkin"
 )
 url=\
 (
-    "https://pypi.python.org/packages/source/c/$python_name/$python_name-${version}.tar.gz"
+    "https://github.com/ros/catkin/archive/${version}.tar.gz"
 )
 
 md5=\
 (
-    "7e6d3cb576d0841985952597ae2b9b70"
+    "472ff1f0e04f456af65fa16060fc75c6"
 )
 
 requires=\
 (
-    'python_host/host'
-    'python-setuptools/host'
+    'python-catkin-pkg/host'
+    'python-multiprocessing/host'    
 )
 
 host_install()
 {
     cd ../$python_name-$version
     export PYTHONPATH=$PYTHONPATH:$cfg_dir_toolchain_sysroot/lib/python${python_version}/site-packages/
-
     ${cfg_dir_toolchain}/bin/python setup.py install --prefix=${cfg_dir_toolchain_sysroot}
 }
 
