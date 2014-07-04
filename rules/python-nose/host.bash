@@ -1,6 +1,6 @@
 version=\
 (
-    "2.6.2.1"
+    "1.3.3"
 )
 python_version=\
 (
@@ -8,17 +8,17 @@ python_version=\
 )
 python_name=\
 (
-    "multiprocessing"
+    "nose"
 )
 url=\
 (
 
-    "https://pypi.python.org/packages/source/m/${python_name}/${python_name}-${version}.tar.gz"
+    "https://pypi.python.org/packages/source/n/${python_name}/${python_name}-${version}.tar.gz"
 )
 
 md5=\
 (
-    "5cc484396c040102116ccc2355379c72"
+    "42776061bf5206670cb819176dc78654"
 )
 
 requires=\

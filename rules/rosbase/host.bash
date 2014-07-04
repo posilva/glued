@@ -2,9 +2,15 @@ source $pkg_common
 
 requires=\
 (
+    'boost/default'
     'cmake/host'
     'python-empy/host'    
     'python-argparse/host'
-    'python-catkin-pkg/host'    
+    'catkin_pkg/host'    
+    'python-nose/host'
+    'python-rospkg/host'
+    'console_bridge/host'
     'catkin/host'
+    'roscpp_core/host'
+    'message_runtime/host'
 )

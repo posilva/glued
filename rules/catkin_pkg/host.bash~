@@ -8,16 +8,17 @@ python_version=\
 )
 python_name=\
 (
-    "catkin_pkg"
+    "nose"
 )
 url=\
 (
-    "https://pypi.python.org/packages/source/c/$python_name/$python_name-${version}.tar.gz"
+
+    "https://github.com/ros-infrastructure/${python_name}/archive/${version}.tar.gz"
 )
 
 md5=\
 (
-    "7e6d3cb576d0841985952597ae2b9b70"
+    "f63decc5a9ff5d60385d6ac31945a0f3"
 )
 
 requires=\

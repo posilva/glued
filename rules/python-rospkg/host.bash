@@ -1,6 +1,6 @@
 version=\
 (
-    "2.6.2.1"
+    "1.0.29"
 )
 python_version=\
 (
@@ -8,17 +8,17 @@ python_version=\
 )
 python_name=\
 (
-    "multiprocessing"
+    "rospkg"
 )
 url=\
 (
 
-    "https://pypi.python.org/packages/source/m/${python_name}/${python_name}-${version}.tar.gz"
+    "https://pypi.python.org/packages/source/r/${python_name}/${python_name}-${version}.tar.gz"
 )
 
 md5=\
 (
-    "5cc484396c040102116ccc2355379c72"
+    "26cfd8a4911af56627802ba327d44a7f"
 )
 
 requires=\

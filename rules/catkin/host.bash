@@ -2,14 +2,6 @@ version=\
 (
     "0.5.88"
 )
-python_version=\
-(
-    "2.7"
-)
-python_name=\
-(
-    "catkin"
-)
 url=\
 (
     "https://github.com/ros/catkin/archive/${version}.tar.gz"
@@ -22,14 +14,24 @@ md5=\
 
 requires=\
 (
-    'python-catkin-pkg/host'
+    'catkin_pkg/host'
     'python-multiprocessing/host'    
 )
 
+configure()
+{
+   export CMAKE_PREFIX_PATH=${cfg_dir_toolchain_sysroot}
+   export CMAKE_INSTALL_PATH=${cfg_dir_toolchain_sysroot}
+   export PYTHONPATH=$PYTHONPATH:${cfg_dir_toolchain_sysroot}/lib/python2.7/site-packages
+   cmake . -DCATKIN_ENABLE_TESTING=0 -DCMAKE_INSTALL_PREFIX=${cfg_dir_toolchain_sysroot}
+}
+
+build()
+{
+    $make_cmd 
+}
 host_install()
 {
-    cd ../$python_name-$version
-    export PYTHONPATH=$PYTHONPATH:$cfg_dir_toolchain_sysroot/lib/python${python_version}/site-packages/
-    ${cfg_dir_toolchain}/bin/python setup.py install --prefix=${cfg_dir_toolchain_sysroot}
+    $make_install_cmd
 }
 
