@@ -5,7 +5,7 @@ version=\
 
 url=\
 (
-    "ftp://ftp.info-zip.org/pub/infozip/src/zip30.tgz"
+    "http://switch.dl.sourceforge.net/project/infozip/Zip%203.x%20%28latest%29/3.0/zip30.tar.gz"
 )
 
 md5=\
