@@ -15,13 +15,15 @@ md5=\
 
 requires=\
 (
-    'python_host/host'
+   'zlib/host'
+   'python_host/host'
 )
 
 host_install()
 {
     cd ../setuptools-$version
     export PYTHONPATH=$PYTHONPATH:$cfg_dir_toolchain_sysroot/lib/python2.7/site-packages/
+
     ${cfg_dir_toolchain}/bin/python setup.py install --prefix=${cfg_dir_toolchain_sysroot}
 }
 

@@ -5,7 +5,7 @@ version=\
 
 url=\
 (
-    "ftp://ftp.kernel.org/pub/linux/utils/kernel/kmod/kmod-$version.tar.bz2"
+    "https://www.kernel.org/pub/linux/utils/kernel/kmod/kmod-$version.tar.bz2"
 )
 
 md5=\

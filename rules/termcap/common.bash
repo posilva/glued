@@ -5,7 +5,7 @@ version=\
 
 url=\
 (
-  "ftp://ftp.gnu.org/gnu/termcap/termcap-$version.tar.gz"
+  "http://ftp.gnu.org/gnu/termcap/termcap-$version.tar.gz"
 )
 
 md5=\

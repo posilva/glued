@@ -3,7 +3,8 @@ source $pkg_common
 configure()
 {
     ../Python-$version/configure \
-        --prefix="${cfg_dir_toolchain}"
+        --prefix="${cfg_dir_toolchain}" \
+	--with-libs='zlib'
 }
 
 build()

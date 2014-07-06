@@ -2,6 +2,7 @@ source $pkg_common
 
 requires=\
 (
+    'python/default'
     'boost/default'
     'cmake/host'
     'python-empy/host'    

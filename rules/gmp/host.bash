@@ -5,7 +5,7 @@ version=\
 
 url=\
 (
-    "ftp://ftp.gmplib.org/pub/gmp-$version/gmp-$version.tar.bz2"
+    "https://gmplib.org/download/gmp/gmp-$version.tar.bz2"
 )
 
 md5=\

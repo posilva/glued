@@ -5,12 +5,12 @@ version=\
 
 url=\
 (
-    "ftp://atrey.karlin.mff.cuni.cz/pub/linux/pci/pciutils-$version.tar.gz"
+    "https://www.kernel.org/pub/software/utils/pciutils/pciutils-$version.tar.gz"
 )
 
 md5=\
 (
-    "79312f138311d29291c7d44d624cd37e"
+    "8362de952d95835d8bf5e5d27f723d66"
 )
 
 maintainer=\
